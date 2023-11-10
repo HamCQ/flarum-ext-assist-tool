@@ -10,7 +10,7 @@ app.initializers.add('hamcq/assisttool', () => {
     new assist({"namespace": "hamcq-assist","domain": ""})
     items.add('assist-tool',
       <div 
-        class='Button-label' 
+        class='Button-label hamcq-assist' 
         style="color:var(--button-color);cursor: pointer;" 
         id='assist-open'
       >
